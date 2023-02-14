@@ -1,2 +1,2 @@
 #!/bin/bash
-echo (a..z)(a..z) | tr " " "\n" | grep -v "00"
+printif "$.2f" $NUM | sort
